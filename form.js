@@ -27,7 +27,7 @@ app.post('/form', function(req, resp) {
 			console.log(err);
 			resp.sendStatus(500);
 		}
-		resp.send(rekform);
+		/*resp.send(rekform);*/
 	})
 	
 	
